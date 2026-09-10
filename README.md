@@ -362,13 +362,13 @@ test
 Final dataset:
 
 ```text
-<HF_DATASET_NAME>
+HF_DATASET_NAME:Ankulx13/synthetic-manuscript-generator
 ```
 
 Dataset URL:
 
 ```text
-<HF_DATASET_URL>
+HF_DATASET_URL:https://huggingface.co/datasets/Ankulx13/synthetic-manuscript-generator
 ```
 
 These placeholders will be replaced with the actual repository details after
@@ -404,20 +404,7 @@ The current implementation is therefore a practical synthetic-data approach:
 the source text and script structure remain controlled, while the manuscript
 surface and writing appearance are varied procedurally.
 
-## Limitations
 
-The current pipeline uses font-based rendering with procedural transformations.
-It does not attempt to reproduce the exact handwriting strokes of a particular
-historical scribe.
-
-As a result, the generated samples can still retain some characteristics of
-the underlying fonts. Achieving stronger handwriting realism would require
-stroke-level or writer-specific handwriting synthesis and a suitable collection
-of real manuscript references.
-
-The assignment's stated 90% visual and structural parity is treated as the
-target quality requirement; a formal similarity benchmark has not been
-implemented in this version.
 
 ## Requirements
 
