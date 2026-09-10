@@ -342,37 +342,21 @@ For the completed assignment dataset, the expected result is:
 
 ## Hugging Face Dataset
 
-The generated dataset is intended to be published on Hugging Face with three
-script-specific subsets:
+The generated dataset is available on Hugging Face:
 
-```text
-devanagari
-modi
-sharada
-```
+https://huggingface.co/datasets/Ankulx13/synthetic-manuscript-generator
+
+It contains three script-specific subsets:
+
+- devanagari
+- modi
+- sharada
 
 Each subset contains:
 
-```text
-train
-validation
-test
-```
-
-Final dataset:
-
-```text
-HF_DATASET_NAME:Ankulx13/synthetic-manuscript-generator
-```
-
-Dataset URL:
-
-```text
-HF_DATASET_URL:https://huggingface.co/datasets/Ankulx13/synthetic-manuscript-generator
-```
-
-These placeholders will be replaced with the actual repository details after
-the dataset is uploaded.
+- train
+- validation
+- test
 
 ## Reproducibility
 
